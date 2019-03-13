@@ -34,6 +34,18 @@ class CustomStackView : UIStackView
     
 }
 
+extension UIViewController{
+    public func Select(button: UIButton){
+        button.backgroundColor = UIColor.black
+        button.setTitleColor(UIColor.white, for: UIControl.State.normal)
+    }
+    
+    public func Unselect(button: UIButton){
+        button.backgroundColor = UIColor.white
+        button.setTitleColor(UIColor.black, for: UIControl.State.normal)
+    }
+}
+
 
 /*
 @IBDesignable extension UIButton {

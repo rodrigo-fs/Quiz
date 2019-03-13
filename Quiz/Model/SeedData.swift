@@ -20,9 +20,9 @@ class SeedData{
     
     private func createDataMock(){
         
-        addQuestion(text: "O rodrigo é bonito?", answer: true)
-        addQuestion(text: "o rodrigo é cheiroso?", answer: true)
-        addQuestion(text: "o rodrigo namora?", answer: false)
+        addQuestion(text: "As aulas de IOS são boas?", answer: true)
+        addQuestion(text: "O conteúdo é bacana?", answer: true)
+        addQuestion(text: "As aulas são todos os dias?", answer: false)
     }
     
     

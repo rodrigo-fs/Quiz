@@ -33,7 +33,7 @@ class QuestionViewController: UIViewController {
         }
     }
 
-    
+    //TODO: Create a base viewController with all color buttons included
     private func paintButton(button: UIButton){
         switch button.backgroundColor {
             case UIColor.white: paintButtonToSelected(button: button)
